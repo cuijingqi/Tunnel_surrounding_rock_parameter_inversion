@@ -1,7 +1,6 @@
 import ssl
 import time
 import warnings
-
 import numpy as np
 import pandas as pd
 import requests
@@ -18,7 +17,6 @@ warnings.filterwarnings("ignore")
 from made.tunnel.tool import loaddata
 
 scaler, head, feature_train, feature_test, target_train, target_test = loaddata.loaddata()
-
 
 def mapef(y_true, y_pred):
     # print("min ape", np.min(np.abs((y_pred - y_true) / y_true)) * 100)
@@ -348,7 +346,6 @@ def explain(svr_model, lgb_model, gbdt_model, xgb_model, rf_model):
         clf_allimportances.append(clf_importances)
 
     clf_allimportances = np.array(clf_allimportances)
-
     clf_allimportances = clf_allimportances.sum(axis=1)
     clf_allimportances = np.abs(clf_allimportances)
 
