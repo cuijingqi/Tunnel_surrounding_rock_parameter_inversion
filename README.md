@@ -18,7 +18,10 @@
       <br />
     <br />
   </p>
-
+<p align="center">
+    <img src="image/3.png" height="250px"/>
+    <img src="image/1.png" height="250px"/>
+    <img src="image/2.png" height="250px"/>
 </p>
 
 
@@ -26,10 +29,10 @@
 
 ## Directory
 
-- [File Directory Description](#File Directory Description)
+- [File Directory Description](#FileDirectoryDescription)
 - [Author](#Author)
 
-
+<br/>
 
 ### File Directory Description
 eg:
